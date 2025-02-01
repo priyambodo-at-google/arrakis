@@ -1,0 +1,1 @@
+script/sh03.deploynow.sh
