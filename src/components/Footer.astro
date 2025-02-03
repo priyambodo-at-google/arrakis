@@ -1,0 +1,60 @@
+---
+const currentYear = new Date().getFullYear();
+---
+
+<footer class="bg-[#2c1810] text-[#f5e6d3]">
+    <div class="container mx-auto px-4 py-16">
+        <div class="grid md:grid-cols-3 gap-12">
+            {/* About Column */}
+            <div>
+                <h3 class="text-xl font-medium mb-4 text-[#ff7f50]">About ARRAKIS</h3>
+                <p class="text-sm font-light leading-relaxed">
+                    ARRAKIS is a community of Google Cloud AI Partners in Southeast Asia, dedicated to driving innovation and transformation through Generative AI technologies.
+                </p>
+            </div>
+
+            {/* Quick Links */}
+            <div>
+                <h3 class="text-xl font-medium mb-4 text-[#ff7f50]">Quick Links</h3>
+                <ul class="space-y-2 font-light">
+                    <li>
+                        <a href="#vision" class="hover:text-[#ff7f50] transition-colors">Our Vision</a>
+                    </li>
+                    <li>
+                        <a href="#mission" class="hover:text-[#ff7f50] transition-colors">Our Mission</a>
+                    </li>
+                    <li>
+                        <a href="#community" class="hover:text-[#ff7f50] transition-colors">Community</a>
+                    </li>
+                    <li>
+                        <a href="#membership" class="hover:text-[#ff7f50] transition-colors">Join Us</a>
+                    </li>
+                </ul>
+            </div>
+
+            {/* Contact */}
+            <div>
+                <h3 class="text-xl font-medium mb-4 text-[#ff7f50]">Connect With Us</h3>
+                <div class="space-y-2 font-light">
+                    <p>
+                        <a href="" class="hover:text-[#ff7f50] transition-colors">
+                            contactus@comingsoon
+                        </a>
+                        <br></br>
+                    </p>
+                    <p>
+                        <img 
+                            src="arrakis-logo.png" 
+                            alt="ARRAKIS Logo" 
+                            class="w-32 h-32 rounded-full bg-[#d35400]/10 p-2 mb-4 backdrop-blur-sm border-2 border-[#ff7f50]/30"
+                        />
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="border-t border-[#c19a6b]/20 mt-12 pt-8 text-center text-sm font-light">
+            <p>&copy; {currentYear} ARRAKIS Community. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
